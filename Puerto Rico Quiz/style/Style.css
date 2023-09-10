@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.container input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.container p {
+    margin-left: 5px;
+    
+    
+}
+
+/* Cambia el color del checkbox */
+input[type="checkbox"] {
+  -webkit-appearance: none; 
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc; /* Bordes del checkbox */
+  background-color: white; /* Fondo del checkbox */
+  border-radius: 4px; /* Bordes redondeados */
+  outline: none; /* Quita el contorno al hacer clic */
+}
+
+/* Cambia el color del checkbox cuando está marcado */
+input[type="checkbox"]:checked {
+  background-color: #FF6F00; /* Cambia el fondo cuando está marcado */
+  border-color: #ffffff; /* Cambia el borde cuando está marcado */
+}
+.result p, h3, span {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.button-center {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  height: 3vh;
+ 
+  
+}
+
+.reset {
+
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  height: 3vh;
+}
+
+.header {
+  background-color: #212121;
+  color: #FF6F00;
+}
+
+
+
+
+body{
+  /*background-image: url(/Img/maxresdefault.jpg); */
+  color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+    background-size: cover;
+font-family: 'Kanit', sans-serif;
+background-size: 200vh;
+background-color: #424242;
+
+}
+body strong {
+
+  font-family: 'Bebas Neue', sans-serif;
+color: #FF6F00;
+font-size: 30px;
+
+
+
+}
+.container {
+  font-size: 20px
+
+}
+#botonReset {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#botonsubmit{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reset :hover {
+
+  background-color: #994200;
+}
+.button-center :hover {
+  background-color: #994200;
+}
+img {
+  width: 100px;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
